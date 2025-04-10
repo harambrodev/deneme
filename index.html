@@ -1,92 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Cerium | Theme</title>
+    <link rel="stylesheet" href="plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome-4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.transitions.css">
+    <link rel="stylesheet" href="plugins/linearicons/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/template.css">
 </head>
+
 <body>
-  <!-- Konten ada di sini -->
-  <header><!-- Header -->
-    <h1>Fiko's Portofolio</h1>
-    <nav>
-      <ul class="header">
-                <li><a href="#introduction">About Me</a></li>
-                <li><a href="#portofolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <!-- Konten utama-->
-    <section id="introduction">
-        <img class="propil" src="profile.jpg" alt="Profile Image">
-        <div>
-          <h2>I'am Ireztian Fiko Anandirawan</h2>
-          <h3>About Me</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>
-        </div><!-- Bagian Perkenalan --></section>
-    <section id="portofolio">
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-              <ul class="header">
-                <li><a href="#introduction">About Me</a></li>
-                <li><a href="#portofolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </nav>
-          </header>
-            <h2>Projects</h2>
-            <div class="project-container">
-              <div class="project">
-                <h3>Proyek 1</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          
-              <div class="project">
-                <h3>Proyek 2</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          
-              <div class="project">
-                <h3>Proyek 3</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          
-              <div class="project">
-                <h3>Proyek 4</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-
-              <div class="project">
-                <h3>Proyek 5</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-
-              <div class="project">
-                <h3>Proyek 6</h3>
-                <img src="project4.jpg" alt="Project Image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-          
-          <!-- Bagian Portofolio --></section>
-    <section id="contact"><!-- Bagian Kontak --></section>
-  </main>
-  <!-- Bagian Footer-->
-    <footer class="footer">
-      <p>&copy; 2024 Ireztian Fiko Anandirawan.</p>
-      <p>Email Contact: <a href="mailto:anandirawanireztianfiko@gmail.com">anandirawanireztianfiko@gmail.com</a></p>
-  </footer>
+    <header style="background:url('img/banner.png') center center; background-size:cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <a href=""><img src="img/logo.png" class="img-responsive" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <nav class="navbar custom-nav">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav pull-right">
+                                    <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                                    <li><a href="#" class="active">HOME</a></li>
+                                    <li><a href="#">ABOUT</a></li>
+                                    <li><a href="#">COURSE</a></li>
+                                    <li><a href="#">FAQS</a></li>
+                                    <li><a href="#">CONTACT</a></li>
+                                    <li><a href=""><span class="lnr lnr-magnifier"></span></a></li>
+                                    <!-- <li><a href=""><span class="lnr lnr-layers"></span></a></li> -->
+                                    <!-- <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">One more separated link</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                             
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="banner-text text-center">
+                <h3>Promotonal Film for</h3>
+                <h1>The Making of <span>Cerium</span></h1>
+            </div>
+        </div>
+    </header>
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/1.png" alt="">
+                        <h3>Completely Online</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quisquam!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/2.png" alt="">
+                        <h3>Completely Online</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quisquam!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/3.png" alt="">
+                        <h3>Completely Online</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quisquam!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="toll-free-number">
+        <div class="container text-center">
+            <h2>Need any information about this course, call us now at <span>1800 080 080</span></h2>
+        </div>
+    </section>
+    <section id="partners">
+        <div class="heading">
+            <h1>our partners</h1>
+            <span>We have already provided corporate training to the following partners</span>
+            <div class="separator"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <img src="img/partners/wp.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <img src="img/partners/magento.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <img src="img/partners/joomla.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="partner-logo">
+                        <img src="img/partners/drupal.jpg" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="stats" style="background:url('img/stats.jpg') center center; background-size:cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <i class="fa fa-facebook"></i>
+                    <h1>20,000</h1>
+                    <h3>Students Trained</h3>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-facebook"></i>
+                    <h1>98%</h1>
+                    <h3>Students Passed</h3>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-facebook"></i>
+                    <h1>10,560</h1>
+                    <h3>Desktop Learners</h3>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-facebook"></i>
+                    <h1>8,360</h1>
+                    <h3>Tablet Learners</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="wrapper-md bg-green">
+        <div class="container">
+            <div class="heading">
+                <h1>our testimonials</h1>
+                <span>We have already provided corporate training to the following partners</span>
+                <div class="separator"></div>
+            </div>
+            <!--   <div class="sec-title">
+                <h1 class="uc"><i class="lines l-l"></i>Client Testimonials<i class="lines l-r"></i></h1>
+            </div> -->
+            <div class="sec-body">
+                <div class="owl-test owl-carousel">
+                    <div data-author="Miranda Kerr" data-dp="1.jpg">
+                        This is the single best software that enabled us to handle our exams and everything that comes after the exams have been conducted, very smoothly and without any kinds of glitches.
+                        <br> The customer support that comes along with the purchase of the subscription is just amazing.
+                    </div>
+                    <div data-author="Jennifer Lawrence" data-dp="2.jpg">
+                        This is the single best software that enabled us to handle our exams and everything that comes after the exams have been conducted, very smoothly and without any kinds of glitches.
+                    </div>
+                    <div data-author="Avril Lavigne" data-dp="3.jpg">
+                        This is the single best software that enabled us to handle our exams and everything that comes after the exams have been conducted, very smoothly and without any kinds of glitches.
+                        <br> The customer support that comes along with the purchase of the subscription is just amazing.
+                    </div>
+                    <div data-author="Neha Sharma" data-dp="4.jpg">
+                        This is the single best software that enabled us to handle our exams and everything that comes after the exams have been conducted, very smoothly and without any kinds of glitches.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ABOUT THE COMPANY</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod veniam eius, qui id et mollitia illum vero, quasi asperiores, unde dolores eligendi recusandae illo sunt totam harum iusto saepe laudantium.</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>get in touch</h3>
+                    <div class="contact-list">
+                        <ul>
+                            <li class="address">ICC Trade Tower, 'A' Wing, 5th Floor,
+                                <br> Senapati Bapat Road, Shivajinagar,
+                                <br> Pune 411 016, Maharashtra, India.</li>
+                            <li class="mail">+91 20 4011 4500 / 4501</li>
+                            <li class="phone">support@mkcl.org</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>USEFUL LINKS</h3>
+                    <div class="useful-links">
+                        <ul>
+                            <li>Sitemap</li>
+                            <li>User Login</li>
+                            <li>Help & Support</li>
+                            <li>COntact US</li>
+                            <li>Terms n Condition</li>
+                            <li>Disclaimer</li>
+                            <li>Return Policy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <p>Created with <i class="fa fa-heart text-white"></i> by Prajkt Yeole</p>
+        </div>
+    </section>
 </body>
+<script src="plugins/jquery-2.1.4.min.js"></script>
+<script src="plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+
 </html>
